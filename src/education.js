@@ -70,7 +70,7 @@ var Interest = React.createClass({
                         BrSTU
                     </div>
                     <ul type="square" className="warn edul">
-                        <li>SEP2012-JUN2016</li>
+                        <li>SEP2016-JUN2020</li>
                         <li>Engineer information processing</li>
                     </ul>
                 </div>
