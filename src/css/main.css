@@ -152,7 +152,7 @@ a{
     font-size: 2vmax;
     font-family: Kelly Slab
 }
-@media screen and (max-width:740px) {
+@media only screen and (max-width:740px) {
     .textsoc {
       font-size: 3vmax
     }
