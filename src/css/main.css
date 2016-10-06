@@ -58,7 +58,7 @@ a{
 }
 .name{
     font-family: Kelly Slab;
-    font-size: 10vw
+    font-size: 10vmax
 }
 .container {
     height:100%;
@@ -69,7 +69,7 @@ a{
 }
 .contact{
     font-family: Kelly Slab;
-    font-size: 3vw
+    font-size: 3vmax
 }
 .copirate{
     display: flex;
@@ -114,25 +114,25 @@ a{
     max-width: 55%
 }
 .edtxt{
-    font-size: 3.5vh;
+    font-size: 3vmax;
     font-family: Kelly Slab
 }
 .edul{
-    font-size: 2.5vh;
+    font-size: 1.5vmax;
     margin-left: -50px;
     list-style-position: inside;
     font-family: Kelly Slab;
     margin-bottom: 15px
 }
 .edull{
-    font-size: 2.5vh;
+    font-size: 1.5vmax;
     margin-left: -90px;
     list-style-position: inside;
     font-family: Kelly Slab;
     margin-bottom: 15px
 }
 .textint{
-    font-size:8vh;
+    font-size:8vmin;
     font-family: Kelly Slab
 }
 .iconint{
@@ -149,6 +149,29 @@ a{
     padding: 15px
 }
 .textsoc{
-    font-size:3.25vh;
+    font-size: 2vmax;
     font-family: Kelly Slab
+}
+@media screen and (max-width:740px) {
+    .textsoc {
+      font-size: 3vmax
+    }
+    .textint {
+      font-size: 6vmax
+    }
+    .edtxt{
+      font-size: 4vmax
+    }
+    .edul,.edull {
+      font-size: 2vmax
+    }
+    .imgsk {
+      max-width: 40%
+    }
+    .iconint {
+      width: 50px
+    }
+    .content{
+      display: table
+    }
 }
